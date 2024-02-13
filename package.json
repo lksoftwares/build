@@ -1,0 +1,34 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "node build.js",
+    "update-env": "node update-env.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "copy-webpack-plugin": "^12.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.3",
+    "express": "^4.18.2",
+    "file-loader": "^6.2.0",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "node-windows": "^1.0.0-beta.8",
+    "path": "^0.12.7",
+    "webpack-node-externals": "^3.0.0",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.9",
+    "babel-loader": "^9.1.3",
+    "dotenv-webpack": "^8.0.1",
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
